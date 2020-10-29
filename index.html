@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Karam Hani Juda Zomlut"> 
+    <title>Age Calculate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-div">
+            <div class="enter">
+                <input type="text" class="EnterAge float-l" id="EnterAge" placeholder="Enter Age Here...">
+                <button class="calc float-l" id="calc" onclick="ageInYear()">Go</button>
+                <div class="clearfix"></div>
+            </div>
+            <p class="num-age" id="num-age">result</p>
+            <div class="buttons-div">
+                <button class="btn float-l f-row" onclick="ageInYear()">Age in Years</button>
+                <button class="btn float-l f-row" onclick="ageInMonth()">Age in Months</button>
+                <button class="btn float-l f-row" onclick="ageInDay()">Age in Days</button>
+                <button class="btn float-l" onclick="ageInHour()">Age in Hours</button>
+                <button class="btn float-l" onclick="ageInMinute()" onclick="ageInYear">Age in Minutes</button>
+                <button class="btn float-l" onclick="ageInSecond()"> Age in Seconds</button>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <p class="copy">&copy; copyright 2020-karam-KYTC</p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

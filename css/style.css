@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(210deg, #c94b4b ,#4b134f);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    flex-direction: column;
+    padding-top: 8%;
+}
+.main-div{
+    min-height: 300px;
+    background-color: rgb(21, 17, 44);
+    margin: 0 auto 30px; 
+    padding: 50px;
+    border-radius: 20px;
+}
+.main-div .enter{
+    width: 100%;
+}
+.EnterAge{
+    display: block;
+    width: 70%;
+    padding: 15px;
+    min-height: 30px;
+    font-size: 18px;
+    font-family: "system-ui";
+    background-color: #272042;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-right: 5%;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    color: #fff;
+    flex-basis: 70%;
+}
+.calc{
+    display: block;
+    flex-basis: 20%;
+    padding: 15px;
+    height: 53px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #272042;
+    color: #fff;
+    font-family: system-ui;
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 18px  ;
+    width: 25%;
+}
+.main-div .num-age{
+    padding: 15px;
+    min-height: 30px;
+    background-color: #272042;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-family: "system-ui";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.btn{
+    min-height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: system-ui;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #464b61;
+    color: #949494;
+    transition: all .5s;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+.main-div .btn:hover{
+    background-color: #2a2d3a;
+    color: #fff;
+}
+.float-l{
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+.copy{
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+@media(max-width: 470px) {
+
+    .main-div{
+        width: 100%;
+        padding: 30px;
+    }
+    .btn{
+        width: 100%;
+        margin: 0 1% 10px;
+        min-height: 30px;
+    }
+    .main-div .num-age{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .EnterAge, .calc{
+        font-size: 16px;
+    }
+}
+@media(min-width: 471px) and (max-width: 770px){
+    .main-div{
+        width: 90%;
+    }
+    .btn{
+        width: 48%;
+        margin: 0 1% 20px;
+    }
+    .main-div .num-age{
+        font-size: 16px;
+    }
+}
+@media(min-width: 771px){
+    .main-div{
+        width: 80%;
+    }
+    .btn{
+        width: 31.3333%;
+        margin: 0 1% 20px;
+    }
+}
+@media (min-width: 851px){
+    .main-div{
+        width: 70%;
+    }
+}
+@media (min-width: 1001px){
+    .main-div{
+        width: 60%;
+    }
+}
+@media (min-width: 1200px){
+    .main-div{
+        width: 50%;
+    }
+}
